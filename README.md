@@ -1,18 +1,28 @@
-## Getting Started
+beecrowd | 3055
+Nota Esquecida
+Por BR Brazil
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Timelimit: 1
+João aprendeu na escola que a média de dois números é o valor da soma desses dois números dividido por dois. Ou seja, a média de dois números A e B é M = (A+B)/2 .
 
-## Folder Structure
+A professora contou para João as notas que ele tirou nas duas provas de Geografia. As duas notas são números inteiros entre 0 e 100. João prontamente calculou a média das duas provas, que também resultou em um número inteiro.
 
-The workspace contains two folders by default, where:
+Mas João é muito esquecido, e agora não consegue lembrar-se das duas notas que tirou na prova. Ele consegue se lembrar de apenas uma das notas das provas. Por sorte, ele consegue se lembrar também da média entre as duas notas. Você pode ajudar
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+João a determinar a nota da outra prova?
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Entrada
+A primeira linha contém um número inteiro A, indicando a nota de uma prova. A segunda linha contém um número inteiro M, indicando a média entre as duas notas das provas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Saída
+Seu programa deve produzir uma única linha, com apenas um número inteiro, a nota da outra prova, que João não consegue recordar.
 
-## Dependency Management
+Restrições
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+• 0 ≤ A ≤ 100
+
+• 0 ≤ M ≤ 100
+
+Informações sobre a pontuação
+
+• Para um conjunto de casos de testes valendo 10 pontos, as duas notas das provas são iguais.
